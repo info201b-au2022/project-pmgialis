@@ -1,7 +1,7 @@
 # Table summary
-df_1 <- read.csv(file = 'Desktop/SaYoPillow.csv')
-df_2 <- read.csv(file = 'Desktop/Sleep_Analysis.csv')
-df_3 <- read.csv(file = 'Desktop/BellaBeatInd.csv')
+df_1 <- read.csv(file = 'Documents/INFO201/Assignments/project-pmgialis/data/SaYoPillow.csv')
+df_2 <- read.csv(file = 'Documents/INFO201/Assignments/project-pmgialis/data/Sleep_Analysis.csv')
+df_3 <- read.csv(file = 'Documents/INFO201/Assignments/project-pmgialis/data//BellaBeatInd.csv')
 View(df_1)
 View(df_2)
 View(df_3)
