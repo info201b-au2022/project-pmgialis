@@ -1,10 +1,6 @@
 # Table summary
-df_1 <- read.csv(file = 'Documents/INFO201/Assignments/project-pmgialis/data/SaYoPillow.csv')
-df_2 <- read.csv(file = 'Documents/INFO201/Assignments/project-pmgialis/data/Sleep_Analysis.csv')
-df_3 <- read.csv(file = 'Documents/INFO201/Assignments/project-pmgialis/data//BellaBeatInd.csv')
-View(df_1)
-View(df_2)
-View(df_3)
+df <- read.csv(file = '~/Documents/info201/assignments/project-pmgialis/data/SaYoPillow.csv')
+View(df)
 library(stringr)
 library(dplyr)
 library(tidyverse)
