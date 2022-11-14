@@ -5,8 +5,11 @@ date: "2022-11-09"
 ---
 # R markdown file for P2
 ```{r setup, include=FALSE}
+source("../source/summary.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+This is a report on the affects of sleeping habits on health. In this data set, the average number of hours slept is 'r mean_hours()', and the average resting body temperature was 'r mean_temp()' degrees Fahrenheit. For every snore, there are 'r breaths_per_snore()' breaths on average. The average heart rate is 'r mean_heart_rate()' beats per minute, and the average limb movement is 'r mean_move()' movements per hour. 
 
 ## R Markdown
 
