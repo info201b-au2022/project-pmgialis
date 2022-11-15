@@ -8,10 +8,11 @@ date: "2022-11-09"
 source("../source/summary.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Dynamic Paragraph
 
 This is a report on the affects of sleeping habits on health. In this data set, the average number of hours slept is 'r mean_hours()', and the average resting body temperature was 'r mean_temp()' degrees Fahrenheit. For every snore, there are 'r breaths_per_snore()' breaths on average. The average heart rate is 'r mean_heart_rate()' beats per minute, and the average limb movement is 'r mean_move()' movements per hour. 
 
-## R Markdown
+### Table
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -21,12 +22,34 @@ When you click the **Knit** button a document will be generated that includes bo
 summary(cars)
 ```
 
-## Including Plots
+#### Charts
 
-You can also embed plots, for example:
+Graph 1:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r graph1, include=FALSE}
+source("../source/firstchart.R")
+```
+```{r firstchart, echo=FALSE}
+plot(graph1)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The purpose of this chart is to show how the limb movement affects the sleeping hours. Limb movement which can be considered how much the person is exercising (x-axis) is affecting how much the person is sleeping (y-axis). This chart is answering our question about how exercise and body movement affect our sleep. 
+
+```{r graph2, include=FALSE}
+source("../source/secondchart.R")
+```
+```{r secondgraph, echo=FALSE}
+plot(graph2)
+```
+
+The purpose of this chart is to show how stress levels affect the amount of sleep that a person has. One of the questions that we wanted to answer was how different life factors affect the amount of sleep a person gets. This is based on the dataframe and it shows how if your stress level is 0 the highest amount of hours that this person got was above 8 hours but once the stress level increased the amount of hours decreased.
+
+Graph 3:
+```{r graph3, include=FALSE}
+source("../source/thirdchart.R")
+```
+```{r thirdchart, echo=FALSE}
+plot(graph3)
+```
+
+When a person workouts the amount of oxygen that their body needs increases. In this graph it shows how the amount of blood oxygen (bo) as its increasing, the amount of hours of sleep (sr.1) is also increasing. This answers one of the questions that we had about how physical activity can affect your body (in this case the blood oxygen), and how this can have an influence on the amount of sleep that a person gets. 
