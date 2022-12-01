@@ -8,8 +8,11 @@ library(ggplot2)
 data.frame(df)
 
 graph2 <- ggplot(data = df) +
-  geom_polygon(
+  geom_col(
     mapping = aes(x = sl, y = sr.1),
-    color = "light blue")
+    color = "light blue") +
+  labs(x = "Stress Level", y = "Sleeping") +
+  xlim(0,5) +
+  ylim(0,20)
 graph2
 
