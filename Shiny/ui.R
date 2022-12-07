@@ -19,10 +19,12 @@ vis1 <- tabPanel(
   "Interactive Visualization 1",
   titlePanel("Interactive Visualization 1"),
   sidebarLayout(
-    sidebarPanel(),
+    sidebarPanel(sliderInput("time_range", "Range of Hours Slept", 0, 9, value = c(0, 9))),
     mainPanel(
       plotlyOutput("plot1"),
-      p("This chart... ")
+      p("This chart displays the average limb movement for the amount of time slept. The slider
+        allows for a specified range of hours slept to see the slope of the smooth line, and how
+        the data changes by the hour.")
     )
   )
 )
@@ -32,10 +34,15 @@ vis2 <- tabPanel(
   "Interactive Visualization 2",
   titlePanel("Interactive Visualization 2"),
   sidebarLayout(
-    sidebarPanel(sliderInput("stress_range", "Stress Range (Levels 0-4)", 0, 4, value = c(0, 4))),
+    sidebarPanel(sliderInput("stress_range", "Stress Range (Levels 1-3)", 1, 3, value = c(1, 3)), 
+                 sliderInput("max_hours", "Max Hours Slept", 1, 10, value = 8)),
     mainPanel(
       plotlyOutput("plot2"),
-      p("This chart... ")
+      p("This chart displays the amount of hours slept for each stress value. The number of 
+        hours slept per observation and the number of observations are shown for each stress 
+        level. The stress level slider allows for isolation of stress levels, and the max
+        hours slider shows how the observations stack up against one another with fewer hours
+        of sleep.")
     )
   )
 )
