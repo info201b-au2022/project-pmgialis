@@ -1,11 +1,8 @@
 # Second chart for project
 
 library(ggplot2)
-library("plotly")
 
-library(ggplot2)
-
-data.frame(df)
+df <- read.csv(file = '../data/SaYoPillow.csv')
 
 graph2 <- ggplot(data = df) +
   geom_col(
@@ -14,5 +11,5 @@ graph2 <- ggplot(data = df) +
   labs(x = "Stress Level", y = "Sleeping") +
   xlim(0,5) +
   ylim(0,20)
-graph2
 
+# graph2
