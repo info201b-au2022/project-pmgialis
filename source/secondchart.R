@@ -18,3 +18,4 @@ graph2 <- ggplot(data = df) +
   )
 
 # graph2
+# View(df)

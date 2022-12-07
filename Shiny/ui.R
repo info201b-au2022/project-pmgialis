@@ -10,7 +10,14 @@ intro <- tabPanel(
   titlePanel("Introduction"),
   
   mainPanel(
-    p()
+    p("Our project is about how exercising helps improve your sleep and health. 
+      Some of the questions that we had and that we mainly focus our project in
+      is on how much does stress affect your sleep? Another question was that in 
+      the data frame that we found there where levels of the limb movement. We 
+      decided to use this data as a correlation with exercise. Therefore in the 
+      bar graph shown in this project there is data shown about stress and the 
+      amount of sleep. The healthier you are which can be improved by working out
+      the better sleep you will obtain.")
   )
 )
 
