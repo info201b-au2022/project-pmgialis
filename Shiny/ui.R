@@ -32,7 +32,7 @@ vis2 <- tabPanel(
   "Interactive Visualization 2",
   titlePanel("Interactive Visualization 2"),
   sidebarLayout(
-    sidebarPanel(),
+    sidebarPanel(sliderInput("stress_range", "Stress Range (Levels 0-4)", 0, 4, value = c(0, 4))),
     mainPanel(
       plotlyOutput("plot2"),
       p("This chart... ")

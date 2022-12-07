@@ -10,6 +10,11 @@ graph2 <- ggplot(data = df) +
     color = "light blue") +
   labs(x = "Stress Level", y = "Sleeping") +
   xlim(0,5) +
-  ylim(0,20)
+  ylim(0,20) +
+  labs(
+    x = "Stress Level",
+    y = "Time Asleep",
+    title = "Time Slept for Recorded Stress Levels"
+  )
 
 # graph2
