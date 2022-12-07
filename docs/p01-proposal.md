@@ -15,7 +15,7 @@ Team No Sleep
 * Paul Gialis paulmg@uw.edu
 * Sophia Ylinen syline@uw.edu
 
-**Date:** 
+**Date:**
 October 31, 2022
 
 **Affiliation:**
@@ -66,10 +66,22 @@ Key Questions: The data was collected by Data Diotte between 2014-2018. It was r
 * A possible limitation would be that a lot of this data is self-reported and may not be entirely accurate. Some variables, like time asleep or on screens may be less specific. Other variables like exercise intensity can be more subjective. Other influences, for example caffeine consumption, could be recorded incorrectly as well. Other studies with medical devices or specific sleep devices measuring the data will be more accurate. It will be important to avoid any complications with this by not manipulating data together that wouldn’t make sense because of how it is measured.
 * Another limitation might be how different the studies are in the ways they are performed or recorded. As described previously, some are self-reported and others measured by devices. In addition, some record different aspects of sleep, like time asleep versus quality. Because they are different, it’s important to consider this throughout the report and in the way data is interpreted, analyzed, and manipulated. However, having data for multiple different variables will be valuable in creating a nuanced understanding of sleep and what influences it.
 
+## Findings
+The first interactive visualization, Limb Movement over Time in Sleep, and the second interactive visualization, Time Slept over Recorded Stress Levels, both display clear patterns in the data. The first visualization depicts some yellow lines and a blue line. The yellow lines are the points from the dataset, and the blue line illustrates the correlation between these points, showing a negative, nearly linear slope. This means that the more sleeping hours pass, the less limb movement there will be throughout the night, reflecting an indirect relationship between the two variables. This can also be due to the sleep REM cycle, which reduced limb movement in deep sleep. Limb movement can also be a sign of sleep disruption, which is more likely to occur at earlier points in the sleep cycle as people are easier to wake up.
+
+The second interactive visualization compares time slept for recorded stress levels in a stacked bar graph. At stress level 1, the person is averaging six to seven hours. At level 2, hours are ranging from to 3.5 to 4.6, with an outlier at 2.5 hours. At stress level 3, the hours are much shorter, within a range of 0.8 to 2.0 hours, with two outliers around 0.2 hours. There is clear evidence for a consistent decrease in sleep hours as stress levels continue. It is probable to assume that as stress levels get higher, a person’s hours asleep will continue to decrease and quality will be reduced as well. As mentioned before, exercise can be a great way to release stress during the day, which can assist a person in getting more quality and longer sleep at night.
+
+## Discussion
+
+## Conclusion
+
 ## References
 
-Diotte, D. (2022, April 25). Sleep data. Kaggle. Retrieved from https://www.kaggle.com/datasets/danagerous/sleep-data
+L. Rachakonda, A. K. Bapatla, S. P. Mohanty, and E. Kougianos, “SaYoPillow: Blockchain-Integrated Privacy-Assured IoMT Framework for Stress Management Considering Sleeping Habits”, IEEE Transactions on Consumer Electronics (TCE), Vol. 67, No. 1, Feb 2021, pp. 20-29.
+
+L. Rachakonda, S. P. Mohanty, E. Kougianos, K. Karunakaran, and M. Ganapathiraju, “Smart-Pillow: An IoT based Device for Stress Detection Considering Sleeping Habits”, in Proceedings of the 4th IEEE International Symposium on Smart Electronic Systems (iSES), 2018, pp. 161--166.
+Retrieved from https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv
 
 ## Appendix A: Questions
 
-Is APA a good citation style?
+N/A
