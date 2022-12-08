@@ -68,7 +68,46 @@ report <- tabPanel(
   titlePanel("Report"),
   
   mainPanel(
-    p("Sleeping is really important as it helps people function correctly in their daily lives. 
+    p(strong("Codename: "), "No Sleep"),
+    p(strong("Project Title: "), "Sleeping Habits"),
+    p(strong("Authors: "), "Paul Gialis, Anahi Villanueva, Sophia Ylinen"),
+    p(strong("Affiliation: "), "INFO-201: Technical Foundations of Informatics - 
+      The Information School - University of Washington"),
+    p(strong("Date: "), "Autumn 2022"),
+    p(strong("Abstract: "), "In this project, we will be delving into the implications of 
+      sleep quality and quantity on human health. We will be using already recorded sleep data, 
+      and analyzing trends in each of the categories."),
+    p(strong("Keywords: "), "sleep, exercise, health"),
+    p(strong("Introduction: "), "Sleep is part of human well-being, and is necessary in order 
+      to function throughout the day. It is believed that adults need less hours of sleep than 
+      children who need to develop. We think that sleep is important if you want to be able to 
+      think, learn, and act to the best of your ability. Many college students, like us, do not 
+      get enough sleep, so we wanted to expand on this idea. "),
+    p(strong("Problem Domain: "), "Because sleep is crucial to life, analyzing how different 
+      varieties of sleep affect human health is extremely important. In today’s day, people 
+      often normalize fewer hours of sleep, and ignore the ramifications of this choice. As 
+      people often do not reach their recommended amount of sleep each night, the world becomes 
+      increasingly more reliant on more waking hours, creating health concerns. "),
+    p(em("Direct Stakeholders: "), "Direct Stakeholders: The direct stakeholders are those who 
+      directly interact with the system. For our project some of the direct stakeholders are 
+      those that work in the medical fields as they may need some data on sleep and thus, they 
+      can interact directly with our system. "),
+    p(em("Indirect Stakeholders: "), "Indirect Stakeholders: Indirect stakeholders are 
+      different from the direct stakeholders. Indirect stakeholders refers to those who may be 
+      affected by a system without using it themselves. Some of the indirect stakeholders for 
+      our project are citizens. If people don’t learn about the importance of sleep they will 
+      continue to normalize sleeping less hours and this will affect their health."),
+    p(strong("Research Questions")),
+    p(em("Why is sleep important?"), "Knowing how sleep affects our daily lives we can better 
+    understand how what we do affects it."),
+    p(em("How does sleep work?"), "What happens in our brains and to our bodies as we sleep. 
+      It’s important to know this as this helps us understand if not sleeping enough for a day 
+      or several days can affect how we think and learn. "),
+    p(em("Does exercise increase or decrease how sleepy a person is?"), "We want to focus on 
+      how the activities we do, especially those that can get a human tired just like moving a 
+      lot throughout the day or working out, has any effect on our sleep."),
+    p(strong("The Dataset: "), ""),
+    p(strong("Introduction: "), "Sleeping is really important as it helps people function correctly in their daily lives. 
       As college students we do not get enough sleep sometimes due to homework, work, and all 
       the things that we need to do. It is difficult to find a balance especially if you are 
       away from home for the first time and are trying to figure things out. With all these, 
@@ -78,29 +117,34 @@ report <- tabPanel(
       doing our project on sleep came. We even called our group ‘Team No Sleep’ because that’s 
       how we all felt. We thought that if we didn’t find any good information we had a chance 
       to change it after the first part of the project, which was the proposal."),
-    p("The next time we met and researched data frames together we saw that there was actually 
+    p(strong("Findings"),"The next time we met and researched data frames together we saw that there was actually 
       research done on sleep and it was mainly connected with exercise. We knew that exercise 
       does not only help keep the body in shape but it also helps you be more healthier so then 
       we wanted to focus on this."),
-    p("Our project focused on finding how exercising affects sleep and your health. We wanted to 
+    p(strong("Discussion"),"Our project focused on finding how exercising affects sleep and your health. We wanted to 
       prove our hypothesis and therefore use the columns of the data set on time of sleep, limb 
       movement, and stress level. Through the research and coding being done our questions were 
       answered and our hypothesis was proved. The more stressed you are the less sleep you will 
       get (can even get sleep deprivation) and the more you work out the more tired your body is 
       so you will be more likely to get a better restful sleep."),
-    p("There is research being done on this and although exercising does not stop you from getting 
+    p(strong("Conclusion"),"There is research being done on this and although exercising does not stop you from getting 
       sick or from getting a good night sleep every day, it does help many people. The main thing 
       we wanted to leave our audience with was that although it is impossible to sleep well and 
       enough every night, sleep is important and should be prioritized at times. It will cause you 
       to wake up in a better mood, be more active, and function better. Exercising is also important 
-      and can help you get a better sleep and can help you stay healthier.")
+      and can help you get a better sleep and can help you stay healthier."),
+    p(strong("Acknowledgements: "), "Thank you Sam for providing our group with the dataset
+      that we used!"),
+    p(strong("Reference: "), "Rachakonda, L. (2022, February 15). Human stress detection in and 
+      through sleep. Kaggle. Retrieved December 8, 2022, 
+      from", a(href="https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv", "https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv"))
   )
 )
 
 # Define UI for application
 ui <- navbarPage(
   theme = shinytheme("superhero"),
-  title = "No Sleep",
+  title = "Sleeping Habits",
   intro,
   vis1,
   vis2,
