@@ -106,8 +106,21 @@ report <- tabPanel(
     p(em("Does exercise increase or decrease how sleepy a person is?"), "We want to focus on 
       how the activities we do, especially those that can get a human tired just like moving a 
       lot throughout the day or working out, has any effect on our sleep."),
-    p(strong("The Dataset: "), ""),
-    p(strong("Introduction: "), "Sleeping is really important as it helps people function correctly in their daily lives. 
+    p(strong("The Dataset: "), "Why: This data collects information that is connected to the 
+      questions we want to answer. It has information on body movement (which we connected it 
+      to exercise), sleeping time, and stress levels (health). This information on this dataset 
+      will enable us to answer the questions and will allow us to learn more about sleep and 
+      things that can affect it."),
+      p("Citation: Rachakonda, L. (2022, February 15). Human stress 
+      detection in and through sleep. Kaggle. Retrieved from https://www.kaggle.com/datasets/
+      laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv"),
+      p("Key Questions: 
+      The data was collected by Laavanya Rachakonda and was recently updated 10 months ago. The 
+      data was collected with Smart-Yoga Pillow as they wanted to propose the idea of a device 
+      and how it benefits how you sleep. However, the dataset has a lot of good information as 
+      this device collected a lot of the information that helped us answer our questions."),
+    p(strong("Introduction: "), "Sleeping is really important as it helps people function 
+    correctly in their daily lives. 
       As college students we do not get enough sleep sometimes due to homework, work, and all 
       the things that we need to do. It is difficult to find a balance especially if you are 
       away from home for the first time and are trying to figure things out. With all these, 
