@@ -17,7 +17,7 @@ intro <- tabPanel(
       decided to use this data as a correlation with exercise. Therefore in the 
       bar graph shown in this project there is data shown about stress and the 
       amount of sleep. The healthier you are which can be improved by working out
-      the better sleep you will obtain.")
+      the better sleep you will obtain.", imageOutput("image"))
   )
 )
 
@@ -106,7 +106,7 @@ report <- tabPanel(
     p(em("Does exercise increase or decrease how sleepy a person is?"), "We want to focus on 
       how the activities we do, especially those that can get a human tired just like moving a 
       lot throughout the day or working out, has any effect on our sleep."),
-    p(strong("The Dataset: "), "Why: This data collects information that is connected to the 
+    p(strong("The Dataset: "), em("Why: "), "This data collects information that is connected to the 
       questions we want to answer. It has information on body movement (which we connected it 
       to exercise), sleeping time, and stress levels (health). This information on this dataset 
       will enable us to answer the questions and will allow us to learn more about sleep and 

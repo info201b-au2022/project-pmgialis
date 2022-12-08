@@ -10,6 +10,10 @@ shinyServer(function(input, output) {
       ggplotly(graph1)
     })
     
+    output$image <- renderImage({
+      list(src = "www/ImageofSleep.jpg", height = "100%", width = "50%", align = "right")
+    }, deleteFile = FALSE)
+    
     output$plot1 <- renderPlotly({
       time_range <- input$time_range
       
