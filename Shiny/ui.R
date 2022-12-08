@@ -68,7 +68,32 @@ report <- tabPanel(
   titlePanel("Report"),
   
   mainPanel(
-    p()
+    p("Sleeping is really important as it helps people function correctly in their daily lives. 
+      As college students we do not get enough sleep sometimes due to homework, work, and all 
+      the things that we need to do. It is difficult to find a balance especially if you are 
+      away from home for the first time and are trying to figure things out. With all these, 
+      many students get anxiety, depression or get other health issues."),
+    p("Our group was struggling at first to find a topic for our project. We couldn’t 
+      decide and as we researched we were all mentioning how tired we were. There the idea of 
+      doing our project on sleep came. We even called our group ‘Team No Sleep’ because that’s 
+      how we all felt. We thought that if we didn’t find any good information we had a chance 
+      to change it after the first part of the project, which was the proposal."),
+    p("The next time we met and researched data frames together we saw that there was actually 
+      research done on sleep and it was mainly connected with exercise. We knew that exercise 
+      does not only help keep the body in shape but it also helps you be more healthier so then 
+      we wanted to focus on this."),
+    p("Our project focused on finding how exercising affects sleep and your health. We wanted to 
+      prove our hypothesis and therefore use the columns of the data set on time of sleep, limb 
+      movement, and stress level. Through the research and coding being done our questions were 
+      answered and our hypothesis was proved. The more stressed you are the less sleep you will 
+      get (can even get sleep deprivation) and the more you work out the more tired your body is 
+      so you will be more likely to get a better restful sleep."),
+    p("There is research being done on this and although exercising does not stop you from getting 
+      sick or from getting a good night sleep every day, it does help many people. The main thing 
+      we wanted to leave our audience with was that although it is impossible to sleep well and 
+      enough every night, sleep is important and should be prioritized at times. It will cause you 
+      to wake up in a better mood, be more active, and function better. Exercising is also important 
+      and can help you get a better sleep and can help you stay healthier.")
   )
 )
 
