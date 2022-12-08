@@ -42,7 +42,7 @@ vis2 <- tabPanel(
   titlePanel("Interactive Visualization 2"),
   sidebarLayout(
     sidebarPanel(sliderInput("stress_range", "Stress Range (Levels 1-3)", 1, 3, value = c(1, 3)), 
-                 sliderInput("max_hours", "Max Hours Slept", 1, 10, value = 8)),
+                 sliderInput("max_hours", "Max Hours Slept", 1, 8, value = 8)),
     mainPanel(
       plotlyOutput("plot2"),
       p("This chart displays the amount of hours slept for each stress value. The number of 
@@ -100,7 +100,7 @@ report <- tabPanel(
 # Define UI for application
 ui <- navbarPage(
   theme = shinytheme("superhero"),
-  title = "Sleep Data [WIP]",
+  title = "No Sleep",
   intro,
   vis1,
   vis2,

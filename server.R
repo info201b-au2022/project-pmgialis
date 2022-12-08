@@ -2,10 +2,7 @@ library(shiny)
 library(plotly)
 library(dplyr)
 
-source("../source/firstchart.R", local = TRUE)
-source("../source/secondchart.R", local = TRUE)
-
-sleep_data <- read.csv(file = '../data/SaYoPillow.csv')
+sleep_data <- read.csv(file = '../project-pmgialis/data/SaYoPillow.csv')
 
 shinyServer(function(input, output) {
 

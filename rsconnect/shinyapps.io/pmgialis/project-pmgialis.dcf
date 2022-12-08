@@ -1,0 +1,13 @@
+name: project-pmgialis
+title: project-pmgialis
+username:
+account: pmgialis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7841980
+bundleId: 6608917
+url: https://pmgialis.shinyapps.io/project-pmgialis/
+when: 1670478199.42389
+lastSyncTime: 1670478199.4239
+asMultiple: FALSE
+asStatic: FALSE
